@@ -1,0 +1,156 @@
+/*
+整體寬 960px
+Logo: http://i.imgur.com/pHyusTb.png
+登入小人: http://i.imgur.com/HxSb8GP.png
+選單 15px
+*/
+
+header{
+  width: 960px;
+  margin: 0 auto;
+}
+
+header h1{
+  float: left;
+}
+
+header ul{
+  float: left;
+  list-style-type: none;
+  margin-top: 3em;
+}
+
+header li{
+  float: left;
+  margin-left: 2em;
+}
+
+header div{
+  float: right;
+  margin-top: 3em;
+  color: #999;
+  font-weight: bold;
+}
+
+
+/*
+手機圖 http://i.imgur.com/DH1JUY1.png
+下陰影 http://i.imgur.com/qHFBqbU.png
+
+標題 40px
+內文 20px
+價錢 24px
+
+按鈕 128x33, #fe8511 -> #dc5608
+*/
+
+section.main{
+  width: 960px;
+  margin: 0 auto;
+  height: 600px;
+  position: relative;
+  font-size: 20px;
+  top: 150px;
+  background: url(http://i.imgur.com/qHFBqbU.png) no-repeat center bottom;
+}
+
+section.main .phone{
+  position: absolute;
+  top: 0;
+  left: 160px;
+}
+
+section.main div{
+  position: absolute;
+  top: 80px;
+  left: 560px;
+}
+
+section.main h2{
+  font-size: 40px;
+}
+
+section.main ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+section.main p{
+    clear: both;
+}
+section.main .price{
+  clear: both;
+  font-size: 24px;
+}
+
+section.main button{
+  padding: 10px 40px;
+  border: 0;
+  border-radius: 100px;
+  color: #fff;
+  
+  background: -webkit-linear-gradient(top, #fe8511 0%,#dc5608 100%); /* Chrome10+,Safari5.1+ */
+  background: linear-gradient(to bottom, #fe8511 0%,#dc5608 100%); /* W3C */
+}
+
+/*
+SD 卡：http://i.imgur.com/c2Z5au0.png
+電池：http://i.imgur.com/NFwOBqW.png
+耳機：http://i.imgur.com/stm47RT.png
+醜醜手機殼：http://i.imgur.com/aKkhCy6.png
+
+大字：40px
+大字框：70x185
+*/
+
+section.accessory{
+  width: 960px;
+  margin: 9em auto;
+}
+
+section.accessory .cover{
+  float: right;
+  margin-right: 30px;
+}
+section.accessory h3,
+section.accessory ul{
+  float: left;
+}
+section.accessory h3{
+  font-size: 40px;
+  border: 3px #ccc double;
+  padding: 40px 15px;
+  width: 1em;
+  line-height: 1.3;
+  margin: 0 30px;
+  }
+
+section.accessory ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+section.accessory p{
+  clear: both;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+section.accessory strong{
+  color: #999;
+}
+
+section.accessory figure{
+  font-size: 13px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+}
+
+section.accessory li figure{
+  border-top-width:0;
+}
+
+section.accessory li:first-child figure{
+  border-top-width: 1px;
+}
